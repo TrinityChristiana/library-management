@@ -123,3 +123,4 @@ dmypy.json
 
 libraryenv/
 .vscode
+-- SQLite.sql
