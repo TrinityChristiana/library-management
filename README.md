@@ -2,12 +2,22 @@
 
 Created: 04-30-20 | Modified:
 ---
+## First Django Project: Nashville Public Library
+- [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-one.md)
 
 ## Views and Templates to Display Data
+- [Code](https://github.com/TrinityTerry/library-management/tree/views-temp)
+- [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-two.md)
+
+## Adding Authentication to your Django Application
+- [Code](https://github.com/TrinityTerry/library-management/tree/authentication)
+- [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-three.md)
+
+## Getting and Posting Forms
 <!-- - [Code]() -->
 <!-- - [Directions]() -->
 
-## Adding Authentication to your Django Application
+<!-- ## Getting and Posting Forms -->
 <!-- - [Code]() -->
 <!-- - [Directions]() -->
 
