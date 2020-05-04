@@ -18,7 +18,7 @@ Created: 04-30-20 | Modified:
 - [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-four.md)
 
 ## Hyperlinks to Individual Resources
-<!-- - [Code]() -->
+- [Code](https://github.com/TrinityTerry/library-management/tree/indiv-resources)
 <!-- - [Directions]() -->
 
 <!-- ## -->
