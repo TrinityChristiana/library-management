@@ -14,10 +14,14 @@ Created: 04-30-20 | Modified:
 - [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-three.md)
 
 ## Getting and Posting Forms
+- [Code](https://github.com/TrinityTerry/library-management/tree/posting-forms)
+- [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-four.md)
+
+## Hyperlinks to Individual Resources
 <!-- - [Code]() -->
 <!-- - [Directions]() -->
 
-<!-- ## Getting and Posting Forms -->
+<!-- ## -->
 <!-- - [Code]() -->
 <!-- - [Directions]() -->
 
