@@ -67,6 +67,7 @@ def book_list(request):
                 form_data['isbn'], 
                 form_data['year_published'], 
                 request.user.librarian.id, 
-                form_data['location']))
+                form_data['location']
+            ))
 
         return redirect(reverse('libraryapp:books'))
