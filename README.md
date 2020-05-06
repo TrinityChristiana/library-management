@@ -43,8 +43,8 @@
 - [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-nine.md)
 
 ## Static Files in Django
-<!-- - [Code]() -->
-<!-- - [Directions]() -->
+- [Code](https://github.com/TrinityTerry/library-management/tree/static-files)
+- [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-ten.md)
 ---
 
 _This is a lesson from [Book 3](https://github.com/nashville-software-school/bangazon-llc/tree/master/book-3-web-applications) of [Bangazon LLC](https://github.com/nashville-software-school/bangazon-llc) Backend Coursework from [Nashville Software School](https://github.com/nashville-software-school)_
