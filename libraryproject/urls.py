@@ -16,8 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from libraryapp.models import *
+from libraryapp.resources import LibrarianResource
 
+librarian_resource = LibrarianResource()
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include('libraryapp.urls')),
+    path("api/", include(librarian_resource.urls))
 ]

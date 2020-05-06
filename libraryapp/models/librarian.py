@@ -12,6 +12,8 @@ class Librarian(models.Model):
         blank=True, # Allows blank value on objects
         on_delete=models.CASCADE)
 
+    def __str__(self):
+        return f"{self.location}"
 
 # These receiver hooks allow you to continue to
 # work with the `User` class in your Python code.
