@@ -35,6 +35,10 @@
 - [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-seven.md)
 
 ## Extending and Sharing Templates
+- [Code](https://github.com/TrinityTerry/library-management/tree/extending-templates)
+- [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-eight.md)
+
+## Using Joined Models in Views and Templates
 <!-- - [Code]() -->
 <!-- - [Directions]() -->
 

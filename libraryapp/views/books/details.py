@@ -10,6 +10,7 @@ from ...utils import get_book
 def book_details(request, book_id):
     if request.method == "GET":
         book = get_book(book_id)
+        print(book.__dict__)
         template = 'books/detail.html'
         context = {
             'book': book
