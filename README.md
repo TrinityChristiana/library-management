@@ -39,12 +39,12 @@
 - [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-eight.md)
 
 ## Using Joined Models in Views and Templates
-<!-- - [Code]() -->
-<!-- - [Directions]() -->
+- [Code](https://github.com/TrinityTerry/library-management/tree/joined-models)
+- [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-nine.md)
 
-<!-- ## -->
-<!-- - [Code]() -->
-<!-- - [Directions]() -->
+## Static Files in Django
+- [Code](https://github.com/TrinityTerry/library-management/tree/static-files)
+- [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-ten.md)
 ---
 
 _This is a lesson from [Book 3](https://github.com/nashville-software-school/bangazon-llc/tree/master/book-3-web-applications) of [Bangazon LLC](https://github.com/nashville-software-school/bangazon-llc) Backend Coursework from [Nashville Software School](https://github.com/nashville-software-school)_
