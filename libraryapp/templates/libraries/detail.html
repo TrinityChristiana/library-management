@@ -7,10 +7,10 @@
         {% csrf_token %}
         <button>Edit</button>
     </form>
-
+{% comment %} 
     <form action="{% url 'libraryapp:library' library.id %}" method="POST">
         {% csrf_token %}
         <input hidden name="actual_method" value="Delete">
         <button>Delete</button>
-    <form>
+    <form> {% endcomment %}
 {% endblock %}

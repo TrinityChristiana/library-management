@@ -10,6 +10,8 @@ def list_libraries(request):
     if request.method == 'GET':
         all_libraries = get_libraries()
         template = 'libraries/list.html'
+        for library in all_libraries:
+           print(all_libraries[library].id)
         context = {
             'all_libraries': all_libraries
         }
