@@ -1,6 +1,6 @@
 # Library Management
 
-## Created: 04-30-20 | Modified:
+## Created: 04-30-20 | Modified: 05-06-20
 
 ## First Django Project: Nashville Public Library
 
@@ -26,10 +26,17 @@
 - [Code](https://github.com/TrinityTerry/library-management/tree/indiv-resources)
 - [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-five.md)
 
-<!-- ## -->
+## Deleting Resources
+- [Code](https://github.com/TrinityTerry/library-management/tree/delete)
+- [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-six.md)
+
+<!-- ## Editing Resources -->
 <!-- - [Code]() -->
 <!-- - [Directions]() -->
 
+<!-- ## -->
+<!-- - [Code]() -->
+<!-- - [Directions]() -->
 ---
 
 _This is a lesson from [Book 3](https://github.com/nashville-software-school/bangazon-llc/tree/master/book-3-web-applications) of [Bangazon LLC](https://github.com/nashville-software-school/bangazon-llc) Backend Coursework from [Nashville Software School](https://github.com/nashville-software-school)_

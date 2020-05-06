@@ -7,6 +7,7 @@ urlpatterns = [
     path('books/', book_list, name='books'),
     path('book/form', book_form, name='book_form'),
     path('book/<int:book_id>/', book_details, name="book"),
+    path('books/<int:book_id>/form/', book_edit_form, name='book_edit_form'),
     path('librarians/', list_librarians, name='librarians'),
     path('librarian/<int:librarian_id>', librarian_detail, name="librarian"),
     path('libraries/', list_libraries, name="libraries"),
