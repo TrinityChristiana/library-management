@@ -30,7 +30,11 @@
 - [Code](https://github.com/TrinityTerry/library-management/tree/delete)
 - [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-six.md)
 
-<!-- ## Editing Resources -->
+## Editing Resources
+- [Code](https://github.com/TrinityTerry/library-management/tree/editing)
+- [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-seven.md)
+
+## Extending and Sharing Templates
 <!-- - [Code]() -->
 <!-- - [Directions]() -->
 
