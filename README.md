@@ -39,10 +39,10 @@
 - [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-eight.md)
 
 ## Using Joined Models in Views and Templates
-<!-- - [Code]() -->
-<!-- - [Directions]() -->
+- [Code](https://github.com/TrinityTerry/library-management/tree/joined-models)
+- [Directions](https://github.com/TrinityTerry/library-management/blob/master/directions/part-nine.md)
 
-<!-- ## -->
+## Static Files in Django
 <!-- - [Code]() -->
 <!-- - [Directions]() -->
 ---
