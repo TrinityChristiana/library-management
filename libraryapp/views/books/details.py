@@ -1,9 +1,6 @@
-import sqlite3
 from django.urls import reverse
 from django.shortcuts import redirect, render
 from django.contrib.auth.decorators import login_required
-from libraryapp.models import Book, model_factory
-from ..connection import Connection
 from ...utils import get_book, delete_book, update_book
 
 @login_required
@@ -25,7 +22,6 @@ def book_details(request, book_id):
         ):
             delete_book(book_id)
             return redirect(reverse('libraryapp:books'))
-
 
         if (
             "actual_method" in form_data

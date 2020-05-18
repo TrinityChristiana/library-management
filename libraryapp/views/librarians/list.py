@@ -1,7 +1,4 @@
-import sqlite3
 from django.shortcuts import render
-from libraryapp.models import Librarian
-from ..connection import Connection
 from django.contrib.auth.decorators import login_required
 from ...utils import get_all_librarians
 
