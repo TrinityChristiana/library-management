@@ -7,8 +7,8 @@
         <div>Published in {{ book.year_published }}</div>
         <div>ISBN: {{ book.isbn }}</div>
 
-        <div>Located in the {{ book.location.title }}</div>
-        <div>Registered by {{ book.librarian.first_name }} {{ book.librarian.last_name }}</div>
+        {% if book.location_id %}<div>Located in the  {{book.location}}</div>{% endif %}
+        <div>Registered by {{ book.librarian.user.first_name }} {{ book.librarian.user.last_name }}</div>
     </section>
 
     <section id="book-actions" style="display:flex;">

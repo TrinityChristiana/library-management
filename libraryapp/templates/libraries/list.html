@@ -7,10 +7,10 @@
     <ol>
     {% for library in all_libraries.values %}
         <li>
-            <a href="{% url 'libraryapp:library' library.id %}">
-                {{ library.title }}
+            <a href="{% url 'libraryapp:library' library.library.id %}">
+                {{ library.library.title }}
             </a>
-            ({{ library.address }})
+            ({{ library.library.address }})
             <ul>
             {% for book in library.books %}
                 <li>{{ book.title }}</li>

@@ -3,7 +3,7 @@ from django.shortcuts import render, redirect, reverse
 from libraryapp.models import Book, model_factory
 from ..connection import Connection
 from django.contrib.auth.decorators import login_required
-from ...utils import get_all_books
+from ...utils import get_all_books, add_book
 
 
 
@@ -19,28 +19,5 @@ def book_list(request):
         return render(request, template, context)
     elif request.method == "POST":
         form_data = request.POST
-
-        with sqlite3.connect(Connection.db_path) as conn:
-            db_cursor = conn.cursor()
-
-            db_cursor.execute("""
-            INSERT INTO libraryapp_book(
-                title, 
-                author, 
-                isbn, 
-                year_published, 
-                location_id, 
-                librarian_id
-            )
-            Values(?, ?, ?, ?, ?, ?)
-            """,
-            (
-                form_data['title'], 
-                form_data['author'], 
-                form_data['isbn'], 
-                form_data['year_published'], 
-                request.user.librarian.id, 
-                form_data['location']
-            ))
-
+        add_book(form_data, request) 
         return redirect(reverse('libraryapp:books'))
