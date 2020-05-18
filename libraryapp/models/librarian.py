@@ -13,7 +13,7 @@ class Librarian(models.Model):
         on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"{self.location}"
+        return f"{self.user}"
 
 # These receiver hooks allow you to continue to
 # work with the `User` class in your Python code.
