@@ -1,9 +1,6 @@
-import sqlite3
 from django.urls import reverse
 from django.shortcuts import redirect, render
 from django.contrib.auth.decorators import login_required
-from libraryapp.models import Library, model_factory
-from ..connection import Connection
 from ...utils import get_library, update_library
 
 
